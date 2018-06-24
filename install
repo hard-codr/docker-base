@@ -7,7 +7,7 @@ apt-get install -y wget \
                    software-properties-common \
                    gnupg
 
-wget -nv -O /usr/local/bin/confd https://github.com/kelseyhightower/confd/releases/download/v${CONFD_VERSION}/confd-${CONFD_VERSION}-linux-amd64
+wget -nv -O /usr/local/bin/confd https://github.com/kelseyhightower/confd/releases/download/v${CONFD_VERSION}/confd-${CONFD_VERSION}-linux-arm64
 chmod +x /usr/local/bin/confd
 
 # Allows SIGABRT and adopt orphaned child processes
